@@ -1,14 +1,14 @@
-print(" *******************")
+print("\033[1;36;40m*******************")
 
-print(" *******************")
+print("\034[1;36;40m*******************")
 
 print(" KNOW YOUR IP TOOL BY b3ta_r00t")
 
 print(" Instagram : b3ta_r00t ")
 
-print(" *******************")
+print("\033[1;36;40m*******************")
 
-print(" *******************")
+print("\033[1;36;40m*******************")
 
 #!/usr/bin/python
 
@@ -20,4 +20,4 @@ response = requests.get(url)
 
 ip=response.text
 
-print("Your IP Address is :" + ip)
+print("\033[1;32;40mYour IP Address is :" + ip)
